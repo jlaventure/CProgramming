@@ -43,7 +43,10 @@ int main(void) {
     
 // Step 2: Function Defenition - Manual for Function; Calculations and Logical Operators Here
 int checkInput(int first_integer, int second_integer) {
-    if (first_integer % second_integer == 0 && first_integer % (second_integer - 3) == 0) {
+    if (second_integer == 0, second_integer == 3) {
+        printf("Not valid");
+    }
+    else if (first_integer % second_integer == 0 && first_integer % (second_integer - 3) == 0) {
         return 1;
     }
     else if (first_integer % second_integer == 0 || first_integer % (second_integer - 3) == 0) {
@@ -53,3 +56,5 @@ int checkInput(int first_integer, int second_integer) {
         return 3;
     }
 }
+
+    

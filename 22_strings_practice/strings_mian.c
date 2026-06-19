@@ -9,7 +9,7 @@ void printSpeacialCharacter(const char* str);
 void convertToLower(char* str);
 void printWords(const char* str); // More complicated task 
 
-int main(void) {
+/*int main(void) {
     char ch_input = 'B';
 
     printf("IsUpper('%c')= %d\n", ch_input, isUpper(ch_input));
@@ -42,7 +42,7 @@ printInLowercase(str);
 
 return 0;
 
-}
+}*/
 
 void printInLowercase(const char* str) {
     for (int i = 0; str[i] != '\0'; i++) {
@@ -51,7 +51,7 @@ void printInLowercase(const char* str) {
 puts("\n");
 }
 
-void printInReversedCase(const char* str) {
+/*void printInReversedCase(const char* str) {
     for (int i = 0; str[i] != '\0'; i++) {
         if (isUpper(str[i])) {
             putchar(toLower(str[i]));
@@ -60,7 +60,7 @@ void printInReversedCase(const char* str) {
             putchar(toUpper(str[i]));
         }
 
-}
+}*/
 
 
 /*

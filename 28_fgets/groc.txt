@@ -1,0 +1,5 @@
+===== GROCERY LIST =====
+car 10 1000.00
+apple 100 2.00
+carrot 50 50.00
+rolo 40 40.00
